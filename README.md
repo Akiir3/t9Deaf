@@ -1,18 +1,24 @@
 # t9Deaf
+
 Project to participate in T9 hackathon
 
 > pip install virtualenv
  
-create new environment
+Create new environment and install dependencies 
 
 > virtualenv venv
-
- install django
-
-> pip install -e django
-
 > source venv/bin/activate
+> pip install django
+> pip install django-crispy-forms
+> cd ASLProject
+> python manage.py migrate
+> python manage.py makemigrations
 
-  To run app
+To run the App
+
 > python manage.py runserver
+
+
+ 
+ 
 
