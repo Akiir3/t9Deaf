@@ -2,14 +2,18 @@
 Project to participate in T9 hackathon
 
 > pip install virtualenv
-#create new environment
+ 
+create new environment
+
 > virtualenv venv
 
-#install django
+ install django
+
 > pip install -e django
-# activate environment
+  activate environment
+
 > source venv/bin/activate
 
-# To run app
+  To run app
 > python manage.py runserver
 
