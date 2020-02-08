@@ -10,7 +10,6 @@ create new environment
  install django
 
 > pip install -e django
-  activate environment
 
 > source venv/bin/activate
 
